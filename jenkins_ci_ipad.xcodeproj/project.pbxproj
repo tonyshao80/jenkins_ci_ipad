@@ -97,7 +97,7 @@
 					B5F547F81EF10E7A00728744 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9WTDZ2EY93;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -269,8 +269,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tony.shao.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f45d7aad-af86-422c-a7be-ad5a8150a831";
-				PROVISIONING_PROFILE_SPECIFIER = jenkins;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -285,8 +285,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tony.shao.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f45d7aad-af86-422c-a7be-ad5a8150a831";
-				PROVISIONING_PROFILE_SPECIFIER = jenkins;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
