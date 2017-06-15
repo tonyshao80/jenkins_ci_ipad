@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					B5F547F81EF10E7A00728744 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9WTDZ2EY93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9WTDZ2EY93;
 				INFOPLIST_FILE = jenkins_ci_ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.shao.jenkins-ci-ipad";
@@ -275,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9WTDZ2EY93;
 				INFOPLIST_FILE = jenkins_ci_ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.shao.jenkins-ci-ipad";
