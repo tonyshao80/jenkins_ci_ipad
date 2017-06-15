@@ -97,7 +97,7 @@
 					B5F547F81EF10E7A00728744 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9WTDZ2EY93;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -263,11 +263,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9WTDZ2EY93;
 				INFOPLIST_FILE = jenkins_ci_ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.shao.jenkins-ci-ipad";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.shao.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f45d7aad-af86-422c-a7be-ad5a8150a831";
+				PROVISIONING_PROFILE_SPECIFIER = jenkins;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +279,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9WTDZ2EY93;
 				INFOPLIST_FILE = jenkins_ci_ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.shao.jenkins-ci-ipad";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.shao.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f45d7aad-af86-422c-a7be-ad5a8150a831";
+				PROVISIONING_PROFILE_SPECIFIER = jenkins;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
